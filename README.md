@@ -59,19 +59,23 @@ alguma dessas dimensões pode representar perda na capacidade de desempenho à m
 
 
 Para melhorar o processo de escalabilidade para o usuário, existem algumas técnicas utilizadas, entre elas:
-*Esconder a latência (requisição assíncrona): Para esconder esta latência muitas vezes pode-se trazer para o dispositivo final
+
+
+* Esconder a latência (requisição assíncrona): Para esconder esta latência muitas vezes pode-se trazer para o dispositivo final
 o processamento de determinada requisição assim ele não precisa buscar em um servidor externo dando a impressão de agilidade 
 para o software, como por _exemplo: Validação de CPF feita diretamente na máquina do usuário e não buscando de um banco de dados online._
 
 
-*Distribuição: Neste quesito temos a forma como um sistema esta distribuído na rede podendo estar em um servidor mais próximo ou mais longe
+* Distribuição: Neste quesito temos a forma como um sistema esta distribuído na rede podendo estar em um servidor mais próximo ou mais longe
 do usuário o que impacta diretamente na velocidade a qual um recurso pode ser utilizado. Como _exemplo temos o o Sistema de Nomes de Domínio, __DNS (Domain Name System)__,
 que dita a partir das terminações de um URL em que zona aquele recurso está diminuindo a distância ao qual o sistema procurará o servidor correspondente._
 
 
-*Replicação: Este quesito dita uma característica bem importante do sistema distribuído que é a replicação deste sistema, isso funciona tanto para a segurança, evitando perda de dados por
+* Replicação: Este quesito dita uma característica bem importante do sistema distribuído que é a replicação deste sistema, isso funciona tanto para a segurança, evitando perda de dados por
 danos físicos ou problemas no software, quanto diminui a velocidade em que um arquivo é carregado ao ser requisitado, este último é comumente percebido com a técnica de caching onde
 uma figura, um dado, um arquivo, que é esperado ser utilizado mais de uma vez, é carregado na máquina do usuário assim quando ele acessar este recurso uma próxima vez, ele estará sendo 
 acionado de maneira mais rápida. O maior problema deste quesito é quanto à consistência pois como o sistema é replicado em diferentes máquinas, alguma falha de atualização do sistema geral
 como falta de internet pode trazer inconsistência nos dados apresentados em ambos os componentes do sistema distribuído.
 ## Referências
+* TANENBAUM, Andrew S.; VAN STEEN, Maarten. Sistemas distribuídos: Princípios e paradigmas, 2 ed. São Paulo: Prentice Hall, 2007,cap 1, pag. 1- 9.
+* LOPES, Rafael Fernandes. S01E01 - Caracterização de Sistemas Distribuídos. 2020. (17:04). Disponível em: < https://www.youtube.com/watch?v=cWw4wGQdXn0>. Acesso em: 19 jun. 2020
