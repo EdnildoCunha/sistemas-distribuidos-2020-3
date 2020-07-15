@@ -76,6 +76,3 @@ danos físicos ou problemas no software, quanto diminui a velocidade em que um a
 uma figura, um dado, um arquivo, que é esperado ser utilizado mais de uma vez, é carregado na máquina do usuário assim quando ele acessar este recurso uma próxima vez, ele estará sendo 
 acionado de maneira mais rápida. O maior problema deste quesito é quanto à consistência pois como o sistema é replicado em diferentes máquinas, alguma falha de atualização do sistema geral
 como falta de internet pode trazer inconsistência nos dados apresentados em ambos os componentes do sistema distribuído.
-## Referências
-* TANENBAUM, Andrew S.; VAN STEEN, Maarten. Sistemas distribuídos: Princípios e paradigmas, 2 ed. São Paulo: Prentice Hall, 2007,cap 1, pag. 1- 9.
-* LOPES, Rafael Fernandes. S01E01 - Caracterização de Sistemas Distribuídos. 2020. (17:04). Disponível em: < https://www.youtube.com/watch?v=cWw4wGQdXn0>. Acesso em: 19 jun. 2020
